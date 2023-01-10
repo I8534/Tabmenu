@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 478px;
+  margin: 0 auto;
+}
+
+.tab-box-list {
+  display: flex;
+  margin-top: 25px;
+}
+
+.tab-box-item {
+  width: 160px;
+  height: 40px;
+  border: 1px solid blue;
+  color: blue;
+  background-color: white;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  margin-right: -1px;
+  /* 보더 겹치는 것을 합쳐주는 것이다. */
+  transition: background-color 300ms ease-in-out;
+}
+
+.tab-box-item:active {
+  background-color: blue;
+  color: white;
+}
+
+.tab-content-wrapper {
+  /* 보더 겹치는 것을 합쳐주는 것이다. */
+  margin-top: -1px;
+  padding: 10px;
+  border: 1px solid blue;
+}
+
+#web {
+  display: block;
+}
+
+
+
+
+
+
+
+.tab-box-content {
+  display: none;
+}
+
+.tab-box-content p {
+  margin-top: 10px;
+}
+
